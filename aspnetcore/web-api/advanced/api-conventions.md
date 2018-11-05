@@ -52,7 +52,7 @@ Applying this convention to an assembly would result in the convention method ap
 
 In addition to ProducesResponseType and ProducesDefaultResponseType, two additional attributes – <xref:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiConventionNameMatchAttribute> and <xref:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiConventionTypeMatchAttribute> – can be applied to the convention method that determines the methods they apply to.
 
-```C#
+```csharp
 [ProducesResponseType(200)]
 [ProducesResponseType(404)]
 [ApiConventionNameMatch(ApiConventionNameMatchBehavior.Prefix)]
