@@ -15,7 +15,7 @@ By default, ASP.NET Core MVC 2.2 ships with a set of default conventions, <xref:
 
 At runtime, ApiExplorer understand conventions. ApiExplorer is MVC’s abstraction to communicate with Open API document generators. Attributes from the applied convention get associated with an action and will be included in action’s Swagger documentation. API analyzers also understand conventions. If your action is unconventional i.e. it returns a status code that is not documented by the applied convention, it will produce a warning, encouraging you to document it.
 
-# Applying web API conventions
+## Apply web API conventions
 
 There are three ways to apply a convention. Conventions do not compose, each action may be associated with exactly one convention. More specific convention (detailed below) take precedence over less specific ones, and the selection is non deterministic when two or more conventions of the same priority apply to an action. Listed below are the ways to apply a convention to an action, from the most specific to the least specific:
 
