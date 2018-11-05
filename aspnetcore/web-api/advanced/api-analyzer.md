@@ -1,7 +1,7 @@
 ---
 title: Using web API analyzers
 author: pranavkm
-description: Learn about analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
+description: Learn about web API analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
 ms.author: pranavkm
 ms.custom: mvc
 ms.date: 11/05/2018
