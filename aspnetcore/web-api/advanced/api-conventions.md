@@ -9,7 +9,7 @@ uid: web-api/api-conventions
 ---
 # Learn about web API conventions
 
-ASP.NET Core 2.2 introduces a way to extract common [API documentation](<xref:tutorials/web-api-help-pages-using-swagger>) and apply it multiple actions, or controllers, or all controllers within an assembly. Web API conventions are a substitute to decorating individual actions with <xref:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute>. It let you define the most common "conventional" return types and status codes that you return from your action with a way to select the convention method that applies to an action.
+ASP.NET Core 2.2 introduces a way to extract common [API documentation](xref:tutorials/web-api-help-pages-using-swagger) and apply it to multiple actions, controllers, or all controllers within an assembly. Web API conventions are a substitute for decorating individual actions with <xref:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute>. It allows you to define the most common "conventional" return types and status codes that you return from your action with a way to select the convention method that applies to an action.
 
 By default, ASP.NET Core MVC 2.2 ships with a set of default conventions, <xref:Microsoft.AspNetCore.Mvc.DefaultApiConventions>, that is based on the controller that ASP.NET Core scaffolds. If your actions follow the pattern that scaffolding produces, you should be successful using the default conventions.
 
