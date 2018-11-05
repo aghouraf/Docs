@@ -32,7 +32,7 @@ There are three ways to apply a convention. Conventions do not compose, each act
 [!code-csharp[](api-conventions/sample/Startup.cs?name=apiconventiontypeattribute)]
 
 
-# Authoring web API conventions
+## Create web API conventions
 
 A convention is a static type with methods. These methods are annotated with <xref:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute> or <xref:Microsoft.AspNetCore.Mvc.ProducesDefaultResponseTypeAttribute> attributes.
 
