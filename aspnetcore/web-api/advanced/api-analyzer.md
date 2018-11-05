@@ -65,6 +65,6 @@ One of the analyzers in the package inspects controllers annotated with <xref:Mi
 
 [!code-csharp[](api-conventions/sample/Controllers/ContactsController.cs?name=missing404docs&highlight=8-9)]
 
-The action documents the success return type (`200`) but does not document the 404 failure status code. The analyzer reports this as a warning with an option to fix it:
+The action documents the success return type (`200`) but doesn't document the 404 failure status code. The analyzer reports this as a warning with an option to fix it:
 
 [api-conventions/_static/Analyzer.gif]
