@@ -11,3 +11,5 @@ uid: web-api/advanced/index
 
 * [Custom formatters](xref:web-api/advanced/custom-formatters)
 * [Format response data](xref:web-api/advanced/formatting)
+* [Web api Conventions](xref:web-api/api-conventions)
+* [Web api analyzers](xref:web-api/api-analyzer)
