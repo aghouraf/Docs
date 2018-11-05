@@ -9,7 +9,7 @@ uid: web-api/api-analyzer
 ---
 # Learn about analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
 
-ASP.NET Core 2.2 introduces a NuGet package containing analyzers for web API applications – `Microsoft.AspNetCore.Mvc.Api.Analyzers`. These analyzers work with controllers annotated with <xref:Microsoft.AspNetCore.Mvc.ApiControllerAttribute> introduced in ASP.NET Core 2.1, while building on [API conventions](<xref:web-api/action-return-types>).
+ASP.NET Core 2.2 introduces the [Microsoft.AspNetCore.Mvc.Api.Analyzers](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Api.Analyzers) NuGet package containing analyzers for web APIs. The analyzers work with controllers annotated with <xref:Microsoft.AspNetCore.Mvc.ApiControllerAttribute>, while building on [API conventions](<xref:web-api/action-return-types>).
 
 ## Package installation
 
