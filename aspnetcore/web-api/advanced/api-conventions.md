@@ -6,6 +6,7 @@ ms.author: pranavkm
 ms.custom: mvc
 ms.date: 11/05/2018
 uid: web-api/api-conventions
+monikerRange: '>= aspnetcore-2.2'
 ---
 # Learn about web API conventions
 
@@ -27,7 +28,7 @@ There are three ways to apply a convention. Conventions do not compose, each act
 
 [!code-csharp[](api-conventions/sample/Controllers/ContactsConventionController.cs?name=apiconventiontypeattribute)]
 
-3.. <xref:Microsoft.AspNetCore.Mvc.ApiConventionTypeAttribute> applied to an assembly - Applies the convention type to all controllers in the current assembly. e.g.
+3.. <xref:Microsoft.AspNetCore.Mvc.ApiConventionTypeAttribute> applied to an assembly - Applies the convention type to all controllers in the current assembly. For example:
 
 [!code-csharp[](api-conventions/sample/Startup.cs?name=apiconventiontypeattribute)]
 
@@ -62,6 +63,6 @@ public static void Find(
 { }
 ```
 
-* The <xref:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiConventionNameMatchBehavior.Prefix> option applied to the method, indicates that the convention can match any action as long as it starts with the prefix “Find”. This will include methods such as Find, FindPet or FindById.
+* The <xref:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiConventionNameMatchBehavior.Prefix> option applied to the method, indicates that the convention can match any action as long as it starts with the prefix “Find”. This will include methods such as Find, FindPet, or FindById.
 
 * The <xref:Microsoft.AspNetCore.Mvc.ApiExplorer.ApiConventionNameMatchBehavior.Suffix> applied to the parameter, indicates that the convention can match methods with exactly one parameter that terminate in the suffix id. This will include parameters such as id, or petId. ApiConventionTypeMatch can be similarly applied to types to constrain the type of the parameter. A params[] arguments can be used to indicate remaining parameters that do not need not be explicitly matched.

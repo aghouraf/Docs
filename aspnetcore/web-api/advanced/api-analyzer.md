@@ -6,6 +6,7 @@ ms.author: pranavkm
 ms.custom: mvc
 ms.date: 11/05/2018
 uid: web-api/api-analyzer
+monikerRange: '>= aspnetcore-2.2'
 ---
 # Learn about analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
 
