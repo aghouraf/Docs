@@ -61,7 +61,7 @@ dotnet add ApiConventions.csproj package Microsoft.AspNetCore.Mvc.Api.Analyzers
 
 Open API documents contain each status code and response type an operation may return. In ASP.NET Core MVC, you use attributes such as <xref:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute> and <xref:Microsoft.AspNetCore.Mvc.ProducesAttribute> to document your operation. <xref:tutorials/web-api-help-pages-using-swagger> goes in to further details on documenting your API.
 
-One of the analyzers in the package, inspects controllers annotated with <xref:Microsoft.AspNetCore.Mvc.ApiControllerAttribute> and identifies actions that do not entirely document their responses. Consider the following sample,
+One of the analyzers in the package inspects controllers annotated with <xref:Microsoft.AspNetCore.Mvc.ApiControllerAttribute> and identifies actions that don't entirely document their responses. Consider the following sample:
 
 [!code-csharp[](api-conventions/sample/Controllers/ContactsController.cs?name=missing404docs&highlight=8-9)]
 
