@@ -4,7 +4,7 @@ author: pranavkm
 description: Learn about analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
 ms.author: pranavkm
 ms.custom: mvc
-ms.date: 11/5/2018
+ms.date: 11/05/2018
 uid: web-api/api-analyzer
 ---
 # Learn about analyzers in Microsoft.AspNetCore.Mvc.Api.Analyzers
