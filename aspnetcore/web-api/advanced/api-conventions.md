@@ -36,7 +36,7 @@ There are three ways to apply a convention. Conventions do not compose, each act
 
 A convention is a static type with methods. These methods are annotated with <xref:Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute> or <xref:Microsoft.AspNetCore.Mvc.ProducesDefaultResponseTypeAttribute> attributes.
 
-```C#
+```csharp
 public static class MyAppConventions
 {
     [ProducesResponseType(200)]
